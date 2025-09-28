@@ -20,6 +20,10 @@ ranked_subject_arrays = [] #this array will store our rankings
 block_content = [] #this array stores which subjects are in which block
 
 #functions, subroutines
+
+#change to test git
+def mult(x,y):
+    return x*y
 # reset the school table in the database
 def table_reset(group_count):
     db.execute("drop table if exists school;")
